@@ -1,0 +1,20 @@
+<!DOCType HTML>
+<html>
+    <head>
+        <script>
+            alert('I am inline javascript');
+        </script>
+        <script src="./../Scripts/script1.js"></script>
+        <script src="/Scripts/script2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+        <script src="/Scripts/script2.js">
+            alert('I am not called');
+        </script>        
+        <script>
+            alert('I am called since I dont have src attribute.');
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
