@@ -13,6 +13,26 @@
         <script>
             alert('I am called since I dont have src attribute.');
         </script>
+        <script>
+            // Line breaks considered as semicolon
+            alert('I am inline javascript')
+            alert('hello')
+            
+            // Line breaks considered as not to have intrinsic semicolon
+            alert(3 +
+            1
+            + 2);
+
+             //Line breaks fails to considered as intrinsic semicolon.  Running the code block below would fail because semicolon not added
+            alert("Hello")
+            [1, 2].forEach(alert);
+            
+            // I am single line comment
+            /* I 
+                am
+                mulitiline
+                comment*/
+        </script>
     </head>
     <body>
         
