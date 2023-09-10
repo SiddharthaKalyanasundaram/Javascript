@@ -15,3 +15,20 @@ alert(9007199254740991 + 2); // returns 9007199254740992 ==> Cant save odd numbe
 
 alert(9007199254740991n + 1n); // returns 9007199254740992
 alert(9007199254740991n + 2n); // returns 9007199254740993
+
+alert('I am a general string');
+alert("I am a general string");
+alert(`I am extended functionality.  Can do String interpolation. Eg  The value of value is ${value}`);
+
+let a = true; 
+
+let b = null;
+
+let c;
+alert(c); // returns undefined.
+
+let d = undefined;
+alert(d);
+
+alert(typeof 1); // returns number.
+alert(typeof null); // returns object.
